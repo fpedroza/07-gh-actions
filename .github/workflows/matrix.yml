@@ -8,7 +8,6 @@ jobs:
         node-version: [12, 14, 16]
         operating-system: [ubuntu-latest, windows-latest]
         include: 
-          # add stand-alone combination
           - node-version: 18
           - operating-systemm: ubuntu-latest
         exclude:
